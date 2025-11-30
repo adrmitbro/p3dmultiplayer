@@ -1,0 +1,16 @@
+{
+  "name": "p3d-multiplayer-server",
+  "version": "1.0.0",
+  "description": "WebSocket server for P3D multiplayer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
